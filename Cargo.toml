@@ -1,0 +1,15 @@
+[package]
+name = "rust-blockchain-example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hex = "0.4"
+crypto-hash = "0.3.3"
+thiserror = "1.0.34"
+
+[lib]
+name="blockchainlib"
+path="src/lib.rs"
